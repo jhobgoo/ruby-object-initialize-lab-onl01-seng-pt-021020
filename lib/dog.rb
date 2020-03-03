@@ -6,7 +6,7 @@ class Dog
     
     if initialize(dog)
       @breed = "Mutt"
-    elsif initialize(dog, dog_breed)
+    elsif initialize(dog, dog_breed = "Mutt")
       @breed = dog_breed
     end
     
