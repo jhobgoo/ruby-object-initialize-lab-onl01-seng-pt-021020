@@ -1,3 +1,5 @@
+require.pry
+
 class Dog
 
   def initialize(dog, dog_breed = "Mutt")
@@ -7,3 +9,4 @@ class Dog
   
 end
 
+binding.pry
